@@ -12,15 +12,18 @@ Una vez que el router haya sido reiniciado, se deberá acceder al panel de admin
 
 Cuando se haya conectado el equipo, se puede acceder al panel de administración, primeramente en el navegador escribiendo la dirección IP del router que viene al reverso del router físico o de manera automática se abrirá el navegador para dicha configuración
 
-imagen configuracion inicial del router
+![imagen configuracion inicial del router](https://github.com/JOGU-HP/Ubuntu-Server-Lab/blob/8b3c3b5fa021cdebe30d7d196da5630315627261/Images/Config-Routerter/Configuracion%20inicial%20router.png)
 
 En la imagen, se observa que se escriben IPs aleatorias pero que estén en el mismo rango, ya que de no ser así, se tendrá problemas para acceder al segundo panel de configuración que es de suma importancia para poder desactivar el servicio DHCP que tiene el router por defecto y que se necesita que el servidor asigne
 
-Al guardar los cambios, automáticamente la página web cambiará a una segunda ventana que con el usuario admin y escribiendo la contraseña solicitada en la página anterior se podrá acceder al panel administrativo del router, en este panel se buscará la opción 
+Al guardar los cambios, automáticamente la página web cambiará a una segunda ventana que con el usuario admin y escribiendo la contraseña solicitada en la página anterior se podrá acceder al panel administrativo del router
 
-<img width="1883" height="843" alt="Panel admin" src="https://github.com/user-attachments/assets/8a65878c-4352-4a1f-98eb-1ac171c78e38" />
+![imagen login](https://github.com/JOGU-HP/Ubuntu-Server-Lab/blob/8b3c3b5fa021cdebe30d7d196da5630315627261/Images/Config-Routerter/login.png)
+
 
 Para finalizar, se accede al apartado de router settings y en el apartado de Internet Settings se selecciona el modo AP para que no asigne IPs automáticamente sino que ahora solo sirva como punto intermedio entre el servidor y los equipos conectados que recibirán dirección IP automática.
+
+<img width="1883" height="843" alt="Panel admin" src="https://github.com/user-attachments/assets/8a65878c-4352-4a1f-98eb-1ac171c78e38" />
 
 <img width="1599" height="590" alt="ap" src="https://github.com/user-attachments/assets/de38dc06-4f7b-4f43-aec7-97575928080e" />
 
