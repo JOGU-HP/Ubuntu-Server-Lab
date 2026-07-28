@@ -37,3 +37,5 @@ Aunque ambos equipos están conectado al mismo router, la laptop 1 no envía los
 En cambio, desde la laptop 2 si se puede realizar ping hacia la laptop 1, el error se debe a que en la laptop 2 se configuró la IP manualmente, así que al cambiar para que se reciba una dirección IP automáticamente se pueda obtener una nueva IP válida y al realizar un segundo ping con la nueva dirección IP se obtiene respuesta finalmente, además de desactivar el firewall en ambas laptops para que se pueda realizar el ping exitosamente
 
 <img width="534" height="288" alt="ping exitoso" src="https://github.com/user-attachments/assets/741c44ba-c004-49bc-aac1-9bd13a64f8cb" />
+
+Ahora que se puede realizar ping entre estos dispositivos a través del router, por fin hay conexión entre dispositivos para poder continuar con el proyecto
